@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), url(./fonts/gilroy/Gilroy-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy-Medium'), url(./fonts/gilroy/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: local('Gilroy-Light'), url(./fonts/gilroy/Gilroy-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: local('Gilroy-SemiBold'), url(./fonts/gilroy/Gilroy-SemiBold.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #fff;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #000;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-bar {
+
+    
+}
+
+.header {
+    margin-bottom: 84px;
+}
+
+.header-logo {
+    margin-right: 500px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: left;
+    padding-top: 40px;
+    gap: 40px;
+    white-space: nowrap;
+}
+
+.nav-link {
+    font-family: "Gilroy-SemiBold", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    padding: 11px 0 12px 0;
+    
+}
+
+.main {
+    margin-bottom: 259px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content {
+    max-width: 522px;
+}
+
+.content-title {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 17px;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.content-text {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-weight: 400px;
+    font-size: 20px;
+    color: #888;
+    padding-bottom: 37px;
+}
+
+.content-btn-box {
+    display: flex;
+    gap: 72px;
+}
+
+.content-btn {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 36px 15px 36px;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    border: none;
+}
+
+.content-btn-unclikble{
+    background: none;
+    box-shadow: none;
+    color: #888;;
+
+}
+
+
+.footer {
+    margin-bottom: 96px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
